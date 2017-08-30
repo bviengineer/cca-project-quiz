@@ -1,4 +1,30 @@
 /*****************************
+    NAVIGATION
+******************************/
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1rem;    
+}
+
+
+/*******************************
+    BODY
+*********************************/
+span {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    padding: 2  rem;
+}
+
+
+/*****************************
     FOOTER for all pages
 ******************************/
 #social-media-li {
@@ -20,18 +46,4 @@ footer ul {
     padding: 0rem;
     margin: 0rem;
 }
-
-
-/*******************************
-    BODY
-*********************************/
-    span {
-        font-weight: bold;
-    }
-
-    h1 {
-        text-align: center;
-        padding: 2  rem;
-    }
-
 
