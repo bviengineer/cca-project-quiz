@@ -107,6 +107,25 @@ img {
     height: 100%;
 }
 
+
+/**************************
+    questionEight.html PG
+***************************/
+#question8-float {
+    float: right;
+    padding: 1rem;
+    width: 40rem;
+    background-color: yellowgreen;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#clear-float-para {
+    clear: both;
+    padding-top: 2rem;
+}
+
+
 /*****************************
     FOOTER for all pages
 ******************************/
