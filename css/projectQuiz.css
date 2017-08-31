@@ -75,7 +75,7 @@ container {
     background-color: burlywood;
     position: relative;
     left: 30rem;
-    top: -12rem;
+    top: -10rem;
     padding: 1rem;
     width: 25rem;
 }
@@ -88,6 +88,24 @@ container {
 }
 
 
+/**************************
+    questionSeven.html PG
+***************************/
+#float-left {
+    float: left;
+    padding: 1rem;
+}
+
+#float-right {
+    float: right;
+    padding: 1rem;
+    background-color: yellow;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
 
 /*****************************
     FOOTER for all pages
