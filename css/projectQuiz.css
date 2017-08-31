@@ -14,14 +14,79 @@ nav ul li {
 /*******************************
     BODY
 *********************************/
+body {
+    /* text-align: center; */
+    padding: 2rem;
+}
+
 span {
     font-weight: bold;
 }
 
 h1 {
     text-align: center;
-    padding: 2  rem;
+    padding: 2rem;
 }
+
+/**************************
+    questionFive.html PG
+***************************/
+container {
+    padding:  2rem;
+    margin-top: 2rem;
+}
+
+#col-1 {
+    background-color: pink;
+}
+
+#col-2 {
+    background-color: burlywood;
+}
+
+
+#col-3 {
+    background-color: lightcoral;
+}
+
+
+/**************************
+    questionSix.html PG
+***************************/
+#absolute {
+    background-color: lightgray;
+    position: absolute;
+    left: 50rem;
+    top: 10rem;
+    width: 25rem;
+    padding: 1rem;
+}
+
+#fixed {
+    background-color: lightskyblue;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 25rem;
+    padding: 1 rem;
+}
+
+#relative {
+    background-color: burlywood;
+    position: relative;
+    left: 30rem;
+    top: -12rem;
+    padding: 1rem;
+    width: 25rem;
+}
+
+#static {
+    background-color: pink;
+    float: static;
+    padding: 1rem;
+    width: 25rem;
+}
+
 
 
 /*****************************
@@ -44,6 +109,10 @@ footer p {
 footer ul {
     text-align: center;
     padding: 0rem;
-    margin: 0rem;
+}
+
+footer {
+    margin-top: 5rem;
+    clear: both;
 }
 
