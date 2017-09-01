@@ -1,9 +1,10 @@
 var displayDiv = document.getElementById("addition-result"),
-    calculateBtn = document.getElementById("calculate-total-btn");
+    calculateBtn = document.getElementById("calculate-total-btn"),
+    total;
 
 var addition = function addition(num1, num2) {
     var number1 = num1,
-    number2 = num2,
+    number2 = num2;
     total = number1 + number2; 
     return total;   
 }

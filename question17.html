@@ -17,22 +17,24 @@
                 <h1>Question 17</h1>
                 <h2>Write a bit of JavaScript that creates a variable then assigns the result of calling your function to the variable. (call function &amp; assign it to a new variable) * This should be submitted as working code.</h2>
                 <code>
-                    var getResponse = function getResponse(answer) { <br>
-                        &nbsp;&nbsp;&nbsp; var input = answer; <br>
-                        &nbsp;&nbsp;&nbsp; return input; <br>
+                    var input, <br>
+                        &nbsp;&nbsp; displayDiv = document.getElementById("variable-result"), <br>
+                        &nbsp;&nbsp; viewResultsBtn = document.getElementById("calculate-total-btn"); <br> <br>
+
+                    var getResponse = function getResponse() { <br>
+                        &nbsp;&nbsp; input = "Welcome to JavaScript!"; <br>
+                        &nbsp;&nbsp; return input; <br>
                     } <br>
 
-                        inputResponse = input;
-
                         viewResultlsBtn.addEventListener("click", function() { <br>
-                        &nbsp;&nbsp;&nbsp; getResponse(hey); <br>
-                        &nbsp;&nbsp;&nbsp;displayDiv.innerHTML = "<p>Here is the result of the above fumction: </p>" + inputResponse;<br>
+                            &nbsp;&nbsp; getResponse(); <br>
+                            &nbsp;&nbsp; displayDiv.innerHTML = "The result of the above function is: " + input;<br>
                     });    
                     </code>
                     <br>                    
                     <br>
-                    <button id="calculate-total-btn">View View Results</button>
-                    <div id="variable-result">display div is here</div>
+                    <button id="calculate-total-btn">View Results</button>
+                    <div id="variable-result"></div>
             </section>                  
         </main>
         <footer>
@@ -43,6 +45,6 @@
             </ul>
             <p><small>&copy 2017 All Rights Reserved</small></p>
         </footer>
-        <script src="script/js-addition.js"></script>
+        <script src="script/variable-result.js"></script>
     </body>
-</htm>
+</html>

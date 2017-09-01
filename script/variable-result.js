@@ -1,15 +1,13 @@
 var input,
-    inputResponse,
     displayDiv = document.getElementById("variable-result"),
-    viewResultlsBtn = document.getElementById("calculate-total-btn");
+    viewResultsBtn = document.getElementById("calculate-total-btn");
 
-var getResponse = function getResponse(answer) {
-    input = answer;
+var getResponse = function getResponse() {
+    input = "Welcome to JavaScript!";
     return input;
 }
-    inputResponse = input;
-    
-    viewResultlsBtn.addEventListener("click", function() {
-        getResponse(hey);
-        displayDiv.innerHTML = "<p>Here is the result of the above fumction: </p>" + inputResponse;
+    viewResultsBtn.addEventListener("click", function() {
+        // var getInput = input;
+        getResponse();
+        displayDiv.innerHTML = "<p>Here is the result of the above function: </p>" + input;
 });    

@@ -18,22 +18,26 @@
                 <h2>Write a function that takes in two numbers as parameters, adds them together, and then
                 returns the result. * This should be submitted as working code</h2>
                 <code>
+                    var displayDiv = document.getElementById("addition-result"), <br>
+                    calculateBtn = document.getElementById("calculate-total-btn"), <br>
+                    total; <br>
+
                     var addition = function addition(num1, num2) { <br>
-                        &nbsp;&nbsp;&nbsp;var number1 = parseInt(num1);<br>
-                        &nbsp;&nbsp;&nbsp;var number2 = parseInt(num2);<br>
-                        &nbsp;&nbsp;&nbsp;var total = number1 + number2; <br>
+                        &nbsp;&nbsp;&nbsp;var number1 = num1, <br>
+                        &nbsp;&nbsp;&nbsp;number2 = num2; <br>
+                        &nbsp;&nbsp;&nbsp;total = number1 + number2; <br>
                         &nbsp;&nbsp;&nbsp;return total; <br>
                     } <br>
                     
                     calculateBtn.addEventListener("click", function() { <br>
                         &nbsp;&nbsp;&nbsp;addition(5, 10); <br>
-                        &nbsp;&nbsp;&nbsp;displayDiv.innerHTML = "<p>The result of the fumction above is: </p>" + total;<br>
+                        &nbsp;&nbsp;&nbsp;displayDiv.innerHTML = "The result of the function above is: " + total;<br>
                     });    
                     </code>
                     <br>                    
                     <br>
                     <button id="calculate-total-btn">Calculate Problem</button>
-                    <div id="addition-result">display div is here</div>
+                    <div id="addition-result"></div>
             </section>                  
         </main>
         <footer>
