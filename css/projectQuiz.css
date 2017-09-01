@@ -1,22 +1,8 @@
-/*****************************
-    NAVIGATION
-******************************/
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 1rem;    
-}
-
-
 /*******************************
     BODY
 *********************************/
 body {
-    /* text-align: center; */
-    padding: 2rem;
+    background-color: teal;
 }
 
 span {
@@ -24,11 +10,67 @@ span {
     font-size: 1.2rem;
 }
 
+h1 {
+    font-size: 5rem;
+}
+
 h1, h3 {
     text-align: center;
     text-transform: capitalize;
     padding: 1rem;
+    margin-top: 10rem;
+    color: white;
+} 
+
+p {
+    font-size: 3rem;
+    color: lightgray;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+
+/*****************************
+    INDEX PAGE
+******************************/
+ul li {
+    list-style-type: none;
+    display: list-item;    
+    font-size: 2rem;
+}
+
+ul {
+    margin-top: 5rem;
+}
+    
+/*answer area for all pages*/
+    .qa-area {
+        background-color: white;
+        text-align: center;
+        border: 1rem solid yellowgreen;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        box-shadow: 2rem 1rem;
+        color: darkslategray;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+
+/**************************
+    questionOne.html PG
+***************************/
+
+
 
 /**************************
     questionFive.html PG
