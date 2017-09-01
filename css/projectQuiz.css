@@ -14,7 +14,7 @@ h1 {
     font-size: 5rem;
 }
 
-h1, h3 {
+h1{
     text-align: center;
     text-transform: capitalize;
     padding: 1rem;
@@ -22,11 +22,29 @@ h1, h3 {
     color: white;
 } 
 
+h3 {
+    color: yellowgreen; 
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+aside {
+    background-color: grey;
+    border-radius: 2rem;
+}
+
+aside p{
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+}
+
 p {
     font-size: 3rem;
     color: lightgray;
     text-align: center;
-    padding-top: 2rem;
+    pad ding-top: 2rem;
     margin-bottom: 2rem;
 }
 
