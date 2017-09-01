@@ -4,42 +4,78 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CCA Project &amp; Quiz</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="css/projectQuiz.css">
     </head>
     <body>
         <header>
-            <nav>
-                <ul></ul>   
-            </nav>
+            <h1>Question 6</h1>
         </header>
-        <main>
-            <section>
-                <h1>Question Six</h1>
-                <h2>Name and describe 4 different kinds of positioning in CSS.</h2>
-                <p>Four kinds of positioning in CSS are: 
-                    <ul>
-                        <li>Static</li>had float right
-                        <li>Relative</li> had float left
-                        <li>Absolute</li>
-                        <li>Fixed</li>
-                    </ul>
-                </p> 
-            </section>
-                <div id="absolute"><b>I am listed 1st in the HTML document.</b> My position is typically based on my nearest positioned ancestor and if the relationship doesn't exist, my position is relative to the position of the body of the document. When I assume my <span>absolute position</span> I move along with the scrolling of the page.</div>
+        <section class="container">
+            <div class="row">
+                <main class="col-md-8">
+                    <p>Q). Name and describe 4 different kinds of positioning in CSS.</p>
+                </main>
+                <div class="col-md-1"></div>
+                <aside class="col-md-3">
+                    <h3>Quiz Notes for Question 6:</h3>
+                    <p>Used class notes for the listing of static, for which I initally had float right, and relative, for which I initially had float left. </p>
+                </aside>
+            </div>
+            <div class=row>
+                <section class="col-md-8">
+                    <p class="qa-area answer-with-code">A). Four kinds of positioning in CSS are: <b>Absolute, Fixed, Relative and Static</b>.</p>
+                </section>
+                <div class="col-md-4"></div>
+            </div>
+        </section>
+    </section>
+    <div id="absolute"><b>I am listed 1st in the HTML document.</b> My position is typically based on my nearest positioned ancestor and if the relationship doesn't exist, my position is relative to the position of the body of the document. When I assume my <span>absolute position</span> I move along with the scrolling of the page.</div>
 
-                <div id="fixed"><b>I am listed 2nd in the HTML document.</b> Unlike my counterparts, I remain <span>fixed or in place</span> when scrolling and my position is relative to the browser window. Use the top, bottom, left or right properties to position me.</div>
+    <div id="fixed"><b>I am listed 2nd in the HTML document.</b> Unlike my counterparts, I remain <span>fixed or in place</span> when scrolling and my position is relative to the browser window. Use the top, bottom, left or right properties to position me.</div>
 
-                <div id="static">I'm in a <span>static position</span> and <b>is listed 3rd in the HTML document</b>. This is the default position of all elements and as my name implies, I remain in place or within the normal flow of the page.</div>
-                
-                <div id="relative">My position is <span>relative</span> and <b>I am listed 4th in the HTML document.</b> What that means is that though I physically move out of position on the page,  the space that I left is held and no other element takes it's place. When I relatively position myself, it's based on my original location or my space in the line. Set my top and left margins in order to move me around.</div>
-        </main>
+    <div id="static">I'm in a <span>static position</span> and <b>is listed 3rd in the HTML document</b>. This is the default position of all elements and as my name implies, I remain in place or within the normal flow of the page.</div>
+    
+    <div id="relative">My position is <span>relative</span> and <b>I am listed 4th in the HTML document.</b> What that means is that though I physically move out of position on the page,  the space that I left is held and no other element takes it's place. When I relatively position myself, it's based on my original location or my space in the line. Set my top and left margins in order to move me around.</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-11">
+        <!-- Pagination Links-->
+        <div id="pagination-list-items">
+                <ul class="pagination">
+                    <li><a href="/index.html">Home</a></li>                        
+                    <li><a href="/questionOne.html">1</a></li>
+                    <li><a href="/questionTwo.html">2</a></li>
+                    <li><a href="/questionThree.html">3</a></li>
+                    <li><a href="/questionFour.html">4</a></li>
+                    <li><a href="/questionFive.html">5</a></li>
+                    <li class="active"><a href="/">6</a></li>
+                    <li><a href="/questionSeven.html">7</a></li>
+                    <li><a href="/questionEight.html">8</a></li>
+                    <li><a href="/questionNine.html">9</a></li>
+                    <li><a href="/questionTen.html">10</a></li>
+                    <li><a href="/question11.html">11</a></li>
+                    <li><a href="/question12.html">12</a></li>
+                    <li><a href="/question13.html">13</a></li>
+                    <li><a href="/question14.html">14</a></li>
+                    <li><a href="/question15.html">15</a></li>
+                    <li><a href="/question16.html">16</a></li>
+                    <li><a href="/question17.html">17</a></li>
+                    <li><a href="/question18.html">18</a></li>
+                    <li><a href="/question19.html">19</a></li>
+                    <li><a href="/question20.html">&larr;20</a></li>       
+                </ul>
+            </div>
+                </div>
+            </div>
+        </div>
         <footer>
-            <ul>
-                <li id="social-media-li"><a href="https://github.com/bviengineer" target="_blank"><img id="social-media-icon" src="img/gitHub.png" alt="A version of GitHub's Logo"></a></li>
-                
-                <li id="social-media-li"><a href="https://twitter.com/bvidev" target="_blank"><img id="social-media-icon" src="img/twitterLogo.jpg" alt="A version of Twitter's Logo"></a></li>
-            </ul>
-            <p><small>&copy 2017 All Rights Reserved</small></p>
+            <small>&copy 2017 All Rights Reserved</small>
         </footer>
+         <!-- JQuery 3x Minified -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+         <!-- Latest compiled and minified JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>

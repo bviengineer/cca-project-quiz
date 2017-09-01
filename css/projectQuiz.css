@@ -72,8 +72,7 @@ ul {
         background-color: white;
         text-align: center;
         border: 1rem solid yellowgreen;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding: 1rem;
         box-shadow: 2rem 1rem;
         color: darkslategray;
 }
@@ -82,12 +81,6 @@ header {
     text-align: center;
     color: white;
 }
-
-
-/**************************
-    questionOne.html PG
-***************************/
-
 
 
 /**************************
@@ -111,6 +104,15 @@ container {
     background-color: lightcoral;
 }
 
+.answer-with-code {
+    text-align: left;   
+    padding: 2rem;
+}
+
+.question-5-grid p{
+    color: black;
+}
+
 
 /**************************
     questionSix.html PG
@@ -118,8 +120,8 @@ container {
 #absolute {
     background-color: lightgray;
     position: absolute;
-    left: 50rem;
-    top: 10rem;
+    left: 60rem;
+    top: 50rem;
     width: 25rem;
     padding: 1rem;
 }
@@ -164,11 +166,6 @@ container {
     background-color: yellow;
 }
 
-img {
-    width: auto;
-    height: 100%;
-}
-
 
 /**************************
     questionEight.html PG
@@ -187,12 +184,24 @@ img {
     padding-top: 2rem;
 }
 
+/*****************************************
+    questionNine.html PG
+******************************************/
+img {
+    width: auto;
+    height: 100%;
+}
 
-/*******************************
-    <code> div for #16, #17, #18
-********************************/
+aside p a:link, aside p a:visited{
+    color: yellowgreen;
+}
+
+
+
+/*************************************
+    <code> div for #5 #16, #17, #18
+*************************************/
 code {
-    background-color: lightblue;
     font-size: 1.5rem;
 }
 

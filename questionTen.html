@@ -4,28 +4,70 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CCA Project &amp; Quiz</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="css/projectQuiz.css">
     </head>
     <body>
         <header>
-            <nav>
-                <ul></ul>   
-            </nav>
+            <h1>Question 10</h1>
         </header>
-        <main>
-            <section>
-                <h1>Question Ten</h1>
-                <h2>Describe what happens when I request a web page with my browser in terms of computers, networks, files, and object models in the browser. Make and use drawings to help explain!</h2>
-        
-            </section>                  
-        </main>
+        <section class="container">
+            <div class="row">
+                <main class="col-md-8">
+                    <p>Q). Describe what happens when I request a web page with my browser in terms of computers, networks, files, and object models in the browser. Make and use drawings to help explain!</p>
+                </main>
+                <div class="col-md-1"></div>
+                <aside class="col-md-3">
+                    <h3>Quiz Notes for Question 10:</h3>
+                    <p>Image obtained from <a href="https://www.pcmag.com/encyclopedia/term/54342/web-server" target="_blank">PC Mag Encyclopedia</a></p>
+                </aside>
+            </div>
+            <div class=row>
+                <section class="col-md-8">
+                    <p class="qa-area">A). When a user requests a website via their browser, the request is sent via packets first through their network card, then to their internal router and then the ISPs router. The request will follow various routes, from web server to web server until it reaches the destination with the requested files. The information will be returned to the users browser in very much the same manner it was requested, from web server to router, to internet resulting in various hops, to the users ISP, from the ISP router to users router, until the requested files are displayed in their browser.</p>
+                </section>
+                <div class="col-md-4"><img src="img/web-server.gif" alt="Web Server Traffic"></div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-11">
+        <!-- Pagination Links-->
+        <div id="pagination-list-items">
+                <ul class="pagination">
+                    <li><a href="/index.html">Home</a></li>                        
+                    <li><a href="/questionOne.html">1</a></li>
+                    <li><a href="/questionTwo.html">2</a></li>
+                    <li><a href="/questionThree.html">3</a></li>
+                    <li><a href="/questionFour.html">4</a></li>
+                    <li><a href="/questionFive.html">5</a></li>
+                    <li><a href="/questionSix.html">6</a></li>
+                    <li><a href="/questionSeven.html">7</a></li>
+                    <li><a href="/questionEight.html">8</a></li>
+                    <li><a href="/questionNine.html">9</a></li>
+                    <li class="active"><a href="/">10</a></li>
+                    <li><a href="/question11.html">11</a></li>
+                    <li><a href="/question12.html">12</a></li>
+                    <li><a href="/question13.html">13</a></li>
+                    <li><a href="/question14.html">14</a></li>
+                    <li><a href="/question15.html">15</a></li>
+                    <li><a href="/question16.html">16</a></li>
+                    <li><a href="/question17.html">17</a></li>
+                    <li><a href="/question18.html">18</a></li>
+                    <li><a href="/question19.html">19</a></li>
+                    <li><a href="/question20.html">&larr;20</a></li>       
+                </ul>
+            </div>
+                </div>
+            </div>
+        </div>
         <footer>
-            <ul>
-                <li id="social-media-li"><a href="https://github.com/bviengineer" target="_blank"><img id="social-media-icon" src="img/gitHub.png" alt="A version of GitHub's Logo"></a></li>
-                
-                <li id="social-media-li"><a href="https://twitter.com/bvidev" target="_blank"><img id="social-media-icon" src="img/twitterLogo.jpg" alt="A version of Twitter's Logo"></a></li>
-            </ul>
-            <p><small>&copy 2017 All Rights Reserved</small></p>
+            <small>&copy 2017 All Rights Reserved</small>
         </footer>
+         <!-- JQuery 3x Minified -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+         <!-- Latest compiled and minified JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>

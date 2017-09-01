@@ -3,22 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CCA Project & Quiz</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <title>CCA Project &amp; Quiz</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="css/projectQuiz.css">
     </head>
     <body>
         <header>
-            <nav>
-                <ul></ul>
-            </nav>
+            <h1>Question 5</h1>
         </header>
-        <main>
-            <section>
-                <h1>Question Five</h1>
-                <h2>Write the HTML for a DIV that holds three other DIVs that are equal size on medium or larger screens using the grid system. Give them each a different background color and put some text in them.</h2>
-                <p>
-                    <code>
+        <section class="container">
+            <div class="row">
+                <main class="col-md-8">
+                    <p>Q). Write the HTML for a DIV that holds three other DIVs that are equal size on medium or larger screens using the grid system. Give them each a different background color and put some text in them.</p>
+                </main>
+                <div class="col-md-1"></div>
+                <aside class="col-md-3">
+                    <h3>Quiz Notes for Question 5:</h3>
+                    <p>No additonal sources were referenced for this answer.</p>
+                </aside>
+            </div>
+            <div class=row>
+                <div class="col-md-3"></div>
+                <section class="col-md-6">
+                    <p class="qa-area answer-with-code">A). <br><code>
                         &lt;div class="container"&gt; <br>
                             &nbsp;&nbsp;&lt;div class="row"&gt; <br>
                             &nbsp;&nbsp;&nbsp;&lt;div class="col-md-4"&gt;Column 1&lt;/div&gt; <br>
@@ -26,24 +33,67 @@
                             &nbsp;&nbsp;&nbsp;&lt;div class="col-md-4"&gt;Cloumn 3&lt;/div&gt; <br>
                             &nbsp;&nbsp;&lt;div&gt; <br>
                         &lt;/div&gt;
-                    </code>
-                </p> 
-            </section>
-            <section class="container">
-                <div class="row">
-                    <div id="col-1" class="col-md-4">Column 1</div>
-                    <div id="col-2" class="col-md-4">Column 2</div>
-                    <div id="col-3" class="col-md-4">Column 3</div>
+                    </code></p>
+                </section>
+                <div class="col-md-6"></div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div id="col-1" class="col-md-4 question-5-grid">
+                    <h4>Column 1</h4>
+                    <p>Here is my first column. It has a column a &lt;h4&gt; tag and this is a paragraph. It is enclosed in &lt;p&gt;.</p>
                 </div>
-            </section>
-        </main>
+                <div id="col-2" class="col-md-4 question-5-grid">
+                    <h4>Column 2</h4>
+                    <p>Here is my first column. It has a column a &lt;h4&gt;  tag and this is a paragraph. It is enclosed in &lt;p&gt;.</p>
+                </div>
+                <div id="col-3" class="col-md-4 question-5-grid">
+                    <h4>Column 3</h4>
+                    <p>Here is my first column. It has a column a &lt;h4&gt;  tag and this is a paragraph. It is enclosed in &lt;p&gt;.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-11">
+        <!-- Pagination Links-->
+        <div id="pagination-list-items">
+                <ul class="pagination">
+                    <li><a href="/index.html">Home</a></li>                        
+                    <li><a href="/questionOne.html">1</a></li>
+                    <li><a href="/questionTwo.html">2</a></li>
+                    <li><a href="/questionThree.html">3</a></li>
+                    <li><a href="/question4.html">4</a></li>
+                    <li class="active"><a href="/">5</a></li>
+                    <li><a href="/questionSix.html">6</a></li>
+                    <li><a href="/questionSeven.html">7</a></li>
+                    <li><a href="/questionEight.html">8</a></li>
+                    <li><a href="/questionNine.html">9</a></li>
+                    <li><a href="/questionTen.html">10</a></li>
+                    <li><a href="/question11.html">11</a></li>
+                    <li><a href="/question12.html">12</a></li>
+                    <li><a href="/question13.html">13</a></li>
+                    <li><a href="/question14.html">14</a></li>
+                    <li><a href="/question15.html">15</a></li>
+                    <li><a href="/question16.html">16</a></li>
+                    <li><a href="/question17.html">17</a></li>
+                    <li><a href="/question18.html">18</a></li>
+                    <li><a href="/question19.html">19</a></li>
+                    <li><a href="/question20.html">&larr;20</a></li>       
+                </ul>
+            </div>
+                </div>
+            </div>
+        </div>
         <footer>
-            <ul>
-                <li id="social-media-li"><a href="https://github.com/bviengineer" target="_blank"><img id="social-media-icon" src="img/gitHub.png" alt="A version of GitHub's Logo"></a></li>
-                
-                <li id="social-media-li"><a href="https://twitter.com/bvidev" target="_blank"><img id="social-media-icon" src="img/twitterLogo.jpg" alt="A version of Twitter's Logo"></a></li>
-            </ul>
-            <p><small>&copy 2017 All Rights Reserved</small></p>
+            <small>&copy 2017 All Rights Reserved</small>
         </footer>
+         <!-- JQuery 3x Minified -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+         <!-- Latest compiled and minified JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
