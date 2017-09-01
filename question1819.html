@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CCA Project &amp; Quiz</title>
+        <link rel="stylesheet" href="css/projectQuiz.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul></ul>   
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Questions 18 &amp; 19</h1>
+                <h2>18. Write a JavaScript constructor that creates objects that represent movies. The object should
+                        include a title, director, writer, and a star. * This should be submitted as working code.</h2>
+                <h2>19. Create a bit of JavaScript code that creates a variable and assigns to it a new movie object using
+                    your constructor. * This should be submitted as working code.</h2>
+                <code>
+                    var Movies = function Movies(title, director, writer, star) { <br>
+                        &nbsp;&nbsp;&nbsp; this.title = title; <br>
+                        &nbsp;&nbsp;&nbsp; this.director = director; <br>
+                        &nbsp;&nbsp;&nbsp; this.writer = writer; <br>
+                        &nbsp;&nbsp;&nbsp; this.star = star; <br>
+                    } <br>
+
+                    var movie1 = new Movie("Lean on Me", "John G. Avildsen", "Michael Schiffer", "Samuel Jackson") <br>
+                                           
+                    showMovieInfoBtn.addEventListener("click", function() { <br>
+                        &nbsp;&nbsp;&nbsp; displayDiv.innerHTML = ("<b>Movie Name:</b> " + movie1.title + "<br>" + "<b>Director:</b> " + movie1.director + "<br>" + "<b>Writer:</b> " + movie1.writer + "<br>" + "<b>Star:</b> " + movie1.star);
+                    });    
+                    </code>
+                    <br>                    
+                    <br>
+                    <button id="generate-movie">Show Movie</button>
+                    <div id="movie-result"></div>
+            </section>                  
+        </main>
+        <footer>
+            <ul>
+                <li id="social-media-li"><a href="https://github.com/bviengineer" target="_blank"><img id="social-media-icon" src="img/gitHub.png" alt="A version of GitHub's Logo"></a></li>
+                
+                <li id="social-media-li"><a href="https://twitter.com/bvidev" target="_blank"><img id="social-media-icon" src="img/twitterLogo.jpg" alt="A version of Twitter's Logo"></a></li>
+            </ul>
+            <p><small>&copy 2017 All Rights Reserved</small></p>
+        </footer>
+        <script src="script/constructor.js"></script>
+    </body>
+</htm>

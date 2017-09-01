@@ -21,11 +21,13 @@ body {
 
 span {
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
-    padding: 2rem;
+    text-transform: capitalize;
+    padding: 1rem;
 }
 
 /**************************
@@ -123,6 +125,23 @@ img {
 #clear-float-para {
     clear: both;
     padding-top: 2rem;
+}
+
+
+/*******************************
+    <code> div for #16, #17, #18
+********************************/
+code {
+    background-color: lightblue;
+    font-size: 1.5rem;
+}
+
+/*******************************
+    question18.html
+********************************/
+#movie-result {
+    text-transform: uppercase;
+    padding: 1rem;
 }
 
 
