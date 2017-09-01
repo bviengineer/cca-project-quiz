@@ -11,6 +11,6 @@ var addition = function addition(num1, num2) {
 
 calculateBtn.addEventListener("click", function() {    
     addition(10, 10);
-    displayDiv.innerHTML = "<p>The result of the fumction above is: </p>" + total;        
+    displayDiv.innerHTML = "<p>The result of the function is: </p>" + total;        
 });
     

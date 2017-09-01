@@ -197,6 +197,15 @@ aside p a:link, aside p a:visited{
 }
 
 
+/*****************************************
+    question16.html PG
+******************************************/
+#addition-result {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
+
 
 /*************************************
     <code> div for #5 #16, #17, #18
