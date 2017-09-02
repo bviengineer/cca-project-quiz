@@ -198,12 +198,46 @@ aside p a:link, aside p a:visited{
 
 
 /*****************************************
-    question16.html PG
+    question16.html | question17.html PG
 ******************************************/
-#addition-result {
+#addition-result, #variable-result {
     color: white;
     text-align: center;
     font-size: 5rem;
+}
+
+
+/*****************************************
+     question17.html PG
+******************************************/
+#variable-result {
+    color: white;
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+
+/************************************
+    question18.html PG
+*************************************/
+#qa-1819 {
+    text-align: left !important;
+    font-size:1.8rem;
+}
+
+#movie-result {
+    text-transform: uppercase;
+    padding: 1rem;
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+/************************************
+    question20.html PG
+*************************************/
+#content {
+    margin-top: 10rem;
 }
 
 
@@ -212,14 +246,6 @@ aside p a:link, aside p a:visited{
 *************************************/
 code {
     font-size: 1.5rem;
-}
-
-/*******************************
-    question18.html
-********************************/
-#movie-result {
-    text-transform: uppercase;
-    padding: 1rem;
 }
 
 

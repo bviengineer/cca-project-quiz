@@ -9,5 +9,5 @@ var getResponse = function getResponse() {
     viewResultsBtn.addEventListener("click", function() {
         // var getInput = input;
         getResponse();
-        displayDiv.innerHTML = "<p>Here is the result of the above function: </p>" + input;
+        displayDiv.innerHTML = "<p>Here is the result of the function: </p>" + input;
 });    

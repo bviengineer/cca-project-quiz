@@ -9,42 +9,44 @@
     </head>
     <body>
         <header>
-            <h1>Question 17</h1>
+            <h1>Questions 18 &amp; 19</h1>
         </header>
         <section class="container">
             <div class="row">
                 <main class="col-md-8">
-                    <p>Q). Write a bit of JavaScript that creates a variable then assigns the result of calling your function to the variable. (call function &amp; assign it to a new variable) * This should be submitted as working code.</p>
+                    <p>18). Write a JavaScript constructor that creates objects that represent movies. The object should include a title, director, writer, and a star. * This should be submitted as working code.</p>
+
+                    <p>19). Create a bit of JavaScript code that creates a variable and assigns to it a new movie object using your constructor. * This should be submitted as working code.</p>
                 </main>
                 <div class="col-md-1"></div>
                 <aside class="col-md-3">
-                    <h3>Quiz Notes for Question 17:</h3>
+                    <h3 id="qa-1819">Quiz Notes for Question 18-19:</h3>
                     <p>Referenced prior class work when code failed to display results. However, it was until using the debugger, the errors were identified and corrected.</p>
                 </aside>
             </div>
             <div class=row>
-                <section class="col-md-8">
+                <!-- <div class="col-md-1"></div> -->
+                    <section class="col-md-9">
                     <p class="qa-area answer-with-code">A). <code>
-                            var input, <br>
-                                &nbsp;&nbsp; displayDiv = document.getElementById("variable-result"), <br>
-                                &nbsp;&nbsp; viewResultsBtn = document.getElementById("calculate-total-btn"); <br> <br>
-        
-                            var getResponse = function getResponse() { <br>
-                                &nbsp;&nbsp; input = "Welcome to JavaScript!"; <br>
-                                &nbsp;&nbsp; return input; <br>
+                            var Movies = function Movies(title, director, writer, star) { <br>
+                                &nbsp;&nbsp;&nbsp; this.title = title; <br>
+                                &nbsp;&nbsp;&nbsp; this.director = director; <br>
+                                &nbsp;&nbsp;&nbsp; this.writer = writer; <br>
+                                &nbsp;&nbsp;&nbsp; this.star = star; <br>
                             } <br>
         
-                                viewResultlsBtn.addEventListener("click", function() { <br>
-                                    &nbsp;&nbsp; getResponse(); <br>
-                                    &nbsp;&nbsp; displayDiv.innerHTML = "The result of the above function is: " + input;<br>
+                            var movie1 = new Movie("Lean on Me", "John G. Avildsen", "Michael Schiffer", "Samuel Jackson") <br>
+                                                   
+                            showMovieInfoBtn.addEventListener("click", function() { <br>
+                                &nbsp;&nbsp;&nbsp; displayDiv.innerHTML = ("<b>Movie Name:</b> " + movie1.title + "<br>" + "<b>Director:</b> " + movie1.director + "<br>" + "<b>Writer:</b> " + movie1.writer + "<br>" + "<b>Star:</b> " + movie1.star);
                             });    
                             </code>
                             <br>                    
                             <br>
-                            <button id="calculate-total-btn">View Results</button></p>
+                            <button id="generate-movie">Show Movie</button></p>
                 </section>
-                <div class="col-md-4">
-                        <div id="variable-result"></div>
+                <div class="col-md-3">
+                    <div id="movie-result"></div>
                 </div>
             </div>
         </section>
@@ -72,8 +74,8 @@
                     <li><a href="/question14.html">14</a></li>
                     <li><a href="/question15.html">15</a></li>
                     <li><a href="/question16.html">16</a></li>
-                    <li class="active"><a href="/">17</a></li>
-                    <li><a href="/question18.html">18</a></li>
+                    <li><a href="/question17.html">17</a></li>
+                    <li class="active"><a href="/">18</a></li>
                     <li><a href="/question19.html">19</a></li>
                     <li><a href="/question20.html">&larr;20</a></li>       
                 </ul>
@@ -88,6 +90,6 @@
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
          <!-- Latest compiled and minified JavaScript -->
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-         <script src="script/variable-result.js"></script>
+         <script src="script/constructor.js"></script>
     </body>
 </html>
